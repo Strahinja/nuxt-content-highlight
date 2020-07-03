@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-content-highlight",
+  "description": "Text highlighting wrapper for @nuxt/content",
+  "version": "0.1.0",
+  "author": {
+      "name": "Страхиња Радић",
+      "email": "contact@strahinja.org"
+  },
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/Strahinja/nuxt-content-highlight",
+  "bugs": {
+      "url": "https://github.com/Strahinja/nuxt-content-highlight/issues"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "nuxt.js",
+    "nuxt-content",
+    "highlight",
+    "highlighting"
+  ],
+  "dependencies": {
+      "@nuxt/content": "^1.3.2",
+      "nuxt": "^2.12.2"
+  },
+  "devDependencies": {}
+}
