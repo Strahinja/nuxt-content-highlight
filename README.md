@@ -4,6 +4,12 @@ Text highlighting wrapper for `@nuxt/content`.
 
 ![][1] ![][2] ![][3]
 
+- [Installation](#installation)
+- [Demo](#demo)
+- [Example usage](#example-usage)
+- [Props](#props)
+- [CSS](#css)
+
 # Installation
 
 ```bash
@@ -15,6 +21,22 @@ or
 ```bash
 $ npm install -D nuxt-content-highlight
 ```
+
+# Demo
+
+Clone this repository, then:
+
+```bash
+$ yarn dev
+```
+
+or
+
+```bash
+$ npm run dev
+```
+
+and navigate to `http://localhost:3000`.
 
 # Example usage
 
