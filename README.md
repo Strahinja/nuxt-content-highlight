@@ -10,6 +10,8 @@ Text highlighting wrapper for `@nuxt/content`.
 - [Props](#props)
 - [CSS](#css)
 
+![Animated screenshot of a demo](/../screenshot-gif/nuxt-content-highlight.gif?raw=true)
+
 # Installation
 
 ```bash
