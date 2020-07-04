@@ -102,6 +102,13 @@ not just any text. <span style="highlight">Some text</span> is different.</p>
 
 # Props
 
+## caseSensitive
+
+Type: `Boolean`  
+Default: `false`  
+
+Should the search for the text to be highlighted be case-sensitive or not.
+
 ## document
 
 Type: `Object`  
