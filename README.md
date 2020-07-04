@@ -2,6 +2,8 @@
 
 Text highlighting wrapper for `@nuxt/content`.
 
+![][1] ![][2] ![][3]
+
 # Installation
 
 ```bash
@@ -54,7 +56,7 @@ different.
 Output:
 
 ```html
-<h1> Example document</h1>
+<h1>Example document</h1>
 <p>This is a document containing <span style="highlight">some text</span>. But
 not just any text. <span style="highlight">Some text</span> is different.</p>
 ```
@@ -94,4 +96,10 @@ To style the highlights, you should customize the CSS of the
     background-color: #ff9
 }
 ```
+
+[1]: https://img.shields.io/github/stars/Strahinja/nuxt-content-highlight?label=%E2%AD%90&logo=github
+[2]: https://img.shields.io/github/license/Strahinja/nuxt-content-highlight
+[3]: https://img.shields.io/npm/v/nuxt-content-highlight?registry_uri=https%3A%2F%2Fnpm.pkg.github.com%2Fstrahinja
+
+<!-- [3]: https://img.shields.io/github/downloads/Strahinja/nuxt-content-highlight/total?logo=github -->
 
