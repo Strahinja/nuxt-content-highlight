@@ -114,7 +114,7 @@ To style the highlights, you should customize the CSS of the
 
 [1]: https://img.shields.io/github/stars/Strahinja/nuxt-content-highlight?label=%E2%AD%90&logo=github
 [2]: https://img.shields.io/github/license/Strahinja/nuxt-content-highlight
-[3]: https://img.shields.io/npm/v/nuxt-content-highlight?registry_uri=https%3A%2F%2Fnpm.pkg.github.com%2Fstrahinja
+[3]: https://img.shields.io/npm/v/nuxt-content-highlight/latest
 
 <!-- [3]: https://img.shields.io/github/downloads/Strahinja/nuxt-content-highlight/total?logo=github -->
 
