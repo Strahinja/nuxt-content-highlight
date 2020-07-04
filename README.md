@@ -18,6 +18,21 @@ $ npm install -D nuxt-content-highlight
 
 # Example usage
 
+Add the following lines to `nuxt.config.js`, if not already present:
+
+```javascript
+    modules: [
+        '@nuxt/content',
+        'nuxt-content-highlight',
+    ],
+
+    build: {
+        transpile: [
+            'nuxt-content-highlight',
+            '@nuxt',
+        ],
+    },
+```
 
 Inside of the (page's) `<script>`:
 ```javascript
@@ -41,7 +56,7 @@ Inside of the (page's) `<script>`:
 
 Part of the template:
 ```html
-<nuxt-content-highlight :document="document" highlightText="some text">
+<nuxt-content-highlight :document="document" highlight-text="some text">
 </nuxt-content-highlight>
 ```
 

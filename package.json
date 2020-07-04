@@ -9,7 +9,7 @@
   "repository": "Strahinja/nuxt-content-highlight",
   "license": "MIT",
   "files": [
-      "lib"
+    "lib"
   ],
   "main": "lib/",
   "scripts": {
@@ -33,5 +33,7 @@
     "nuxt": "^2.13.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
   }
 }
