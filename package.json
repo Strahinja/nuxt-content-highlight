@@ -1,6 +1,6 @@
 {
   "name": "nuxt-content-highlight",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Text highlighting wrapper for @nuxt/content",
   "author": {
     "name": "Страхиња Радић",
@@ -35,5 +35,6 @@
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
