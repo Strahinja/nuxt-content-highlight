@@ -9,12 +9,14 @@
   "repository": "Strahinja/nuxt-content-highlight",
   "license": "MIT",
   "files": [
-    "lib"
+    "lib",
+    "test"
   ],
   "main": "lib/",
   "scripts": {
     "dev": "nuxt demo",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "yarn test && yarn pack",
+    "test": "jest -i"
   },
   "homepage": "https://github.com/Strahinja/nuxt-content-highlight",
   "bugs": {
@@ -34,7 +36,14 @@
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4"
+    "@babel/preset-env": "^7.10.4",
+    "@nuxtjs/module-test-utils": "^1.6.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "puppeteer": "^5.0.0",
+    "tib": "^0.7.4"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
