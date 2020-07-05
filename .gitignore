@@ -9,6 +9,9 @@ yarn-error.log*
 
 # nuxt-content-highlight specific files and directories
 .yarn/*
+.nuxt
+demo/.nuxt
+test/fixture/.nuxt
 
 # Tags
 tags
