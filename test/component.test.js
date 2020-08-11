@@ -18,7 +18,7 @@ describe('component', () => {
         page = await browser.page(url('/'))
         const html = await page.getHtml()
 
-        expect(html).toMatch(new RegExp(/<div class="nuxt-content"><h1 id="first-article"><a aria-hidden="true" href="#first-article" tab-index="-1"><span class="icon icon-link"><\/span><\/a>First <span class="highlight">article<\/span><\/h1>\s*<p>This <span class="highlight">article<\/span> contains sample text.<\/p><\/div>/))
+        expect(html).toMatch(new RegExp(/<div class="nuxt-content"><h1 id="first-article"><a aria-hidden="true" href="#first-article" tabindex="-1"><span class="icon icon-link"><\/span><\/a>First <span class="highlight">article<\/span><\/h1>\s*<p>This <span class="highlight">article<\/span> contains sample text.<\/p><\/div>/))
     })
 })
 
