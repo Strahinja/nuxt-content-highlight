@@ -7,6 +7,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Backup files
+*~
+
 # nuxt-content-highlight specific files and directories
 .yarn/*
 .nuxt
