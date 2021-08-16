@@ -2,7 +2,7 @@
 
 *I considered this project "finished" since around v0.1.3 and merely updated the
 dependencies. Since I'm not interested in programming in JavaScript anymore, I
-won't update the dependencies and will turn off dependabot for this packagei as
+won't update the dependencies and will turn off dependabot for this package as
 I find that tiresome and superfluous. Feel free to fork it if you find this
 package useful and want to update it regularly and/or have anything to
 add/improve.*
